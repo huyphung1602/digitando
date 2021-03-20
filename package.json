@@ -1,0 +1,20 @@
+{
+  "name": "digitando",
+  "private": true,
+  "dependencies": {
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "5.2.1",
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.7",
+    "turbolinks": "^5.2.0",
+    "vue": "^3.0.7"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "vite": "^2.0.3",
+    "vite-plugin-ruby": "^1.0.13",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
