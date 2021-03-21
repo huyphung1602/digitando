@@ -17,6 +17,7 @@ export default defineConfig({
       red: colors.rose,
       pink: colors.fuchsia,
       bumble: '#fed049',
+      'dark-bumble': '#282846',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
