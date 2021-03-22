@@ -25,7 +25,6 @@ development:
   <<: *default
   database: digitando
   username: huyphung
-  password: 'Vni.s1car10'
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
