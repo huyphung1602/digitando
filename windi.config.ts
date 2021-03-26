@@ -1,6 +1,7 @@
 // tailwind.config.ts
 import { defineConfig } from 'vite-plugin-windicss'
 import formsPlugin from 'windicss/plugin/forms'
+import lineClampPlugin from 'windicss/plugin/line-clamp'
 import colors from 'windicss/colors'
 
 export default defineConfig({
@@ -16,8 +17,13 @@ export default defineConfig({
       blue: colors.lightBlue,
       red: colors.rose,
       pink: colors.fuchsia,
-      bumble: '#fed049',
+      bumble: {
+        100: '#fed049',
+        200: '#ffc93c',
+        300: '#e48900',
+      },
       'dark-bumble': '#282846',
+      pale: '#d8ebe4',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -33,5 +39,5 @@ export default defineConfig({
       }
     }
   },
-  plugins: [formsPlugin],
+  plugins: [formsPlugin, lineClampPlugin],
 })

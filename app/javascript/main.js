@@ -1,9 +1,9 @@
-import { createApp } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import { createApp } from 'vue';
+import App from './components/App.vue';
 
 export default () => {
   document.addEventListener('DOMContentLoaded', () => {
-      const app = createApp(HelloWorld)
-      app.mount('#app')
+      const app = createApp(App);
+      app.mount('#app');
   })
 }
